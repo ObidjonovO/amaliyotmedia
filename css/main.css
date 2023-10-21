@@ -1,0 +1,674 @@
+@import url(reset.css);
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url(../img/backgroundimage.png) ;
+
+  height: 100%;
+  width: 100%;
+ 
+}
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+
+.container {
+    max-width: 1440px;
+    margin:0 auto ;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top: 121px;
+
+
+  
+
+
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 45px;
+    
+    margin-bottom: 121px;
+    
+}
+@media  (max-width:375px) {
+    .container{
+       
+        padding-left: 24px;
+        padding-right: 24px;
+      
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .hero_left   .hero_title{
+        margin: 0 auto;
+        color: white;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        text-align: center;
+        width: 327px;
+        margin-bottom: 16px;
+        
+    }
+
+
+    .hero_left .hero_text{
+        margin: 0 auto;
+        color: white;
+        font-size: 16px;
+       
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        width: 327px;
+     
+    }
+    
+    .hero_right .hero_button{
+    background: #5E54A4; 
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+     padding: 18px 66px 18px 66px;
+     width: 327px;
+     margin: 0 auto;
+     margin-bottom: 24px;
+}
+.hero_right .hero_button a{
+  
+  
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.27px;
+    
+}
+.hero_right .hero_form{
+    margin: 0 auto;
+    width: 327px;
+    background-color: white;
+    padding: 24px;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px
+}
+.hero_right input{
+    width: 279px;
+    padding: 15px 0px 15px 19px;
+    margin-bottom: 20px;
+    color: #3D3B48;
+    font-size: 14px;
+   
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+}
+.last_button {
+    display: flex;
+    margin: 0 auto;
+    width: 279px;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px rgba(0, 0, 0, 0.09) inset;
+    border-radius: 5px; 
+    border: none;
+
+ 
+}
+
+.last_text p {
+    width: 254px;
+    margin: 0 auto;
+    text-align: center;
+    color: #BAB7D4;
+    font-size: 11px;
+
+    font-weight: 500;
+    line-height: 26px;
+}
+ .hero_right .span2 a{
+    color: #A6A1CF;
+}
+
+}
+@media  (max-width:1274px) and (min-width:900px) {
+
+    .container{
+       max-width: 1274px;
+       padding-left: 100px;
+       padding-right: 100px;
+    
+      
+    }
+    .hero{
+        display: flex;
+        justify-content: center;
+       
+       
+    }
+    .hero_left   .hero_title{
+        margin: 0 auto;
+        color:white;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        width: 327px;
+        margin-bottom: 16px;
+        
+    }
+
+
+    .hero_left .hero_text{
+        margin: 0 auto;
+        color: white;
+        font-size: 16px;
+       
+        font-weight: 500;
+        line-height: 26px;
+    
+        width: 327px;
+     
+    }
+    
+    .hero_right .hero_button{
+    background: #5E54A4; 
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+     padding: 18px 66px 18px 66px;
+     width: 327px;
+     margin: 0 auto;
+     margin-bottom: 24px;
+}
+.hero_right .hero_button a{
+  
+  
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.27px;
+    
+}
+.hero_right .hero_form{
+    margin: 0 auto;
+    width: 327px;
+    background-color: white;
+    padding: 24px;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px
+}
+.hero_right input{
+    width: 279px;
+    padding: 15px 0px 15px 19px;
+    margin-bottom: 20px;
+    color: #3D3B48;
+    font-size: 14px;
+   
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+}
+.last_button {
+    display: flex;
+    
+    margin: 0 auto;
+    width: 279px;
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px rgba(0, 0, 0, 0.09) inset;
+    border-radius: 5px; 
+    border: none;
+
+ 
+}
+
+.last_text p {
+    width: 254px;
+    margin: 0 auto;
+    text-align: center;
+    color: #BAB7D4;
+    font-size: 11px;
+
+    font-weight: 500;
+    line-height: 26px;
+}
+ .hero_right .span2 a{
+    color: #A6A1CF;
+}
+    
+}
+@media (max-width:900px) and ( min-width:800px) {
+    
+    .container{
+        max-width: 900px;
+        padding-left :50px ;
+        padding-right: 50px;
+
+       
+     }
+     .hero{
+        
+        
+     }
+     .hero_left   .hero_title{
+         margin: 0 auto;
+         color:white;
+         font-size: 28px;
+         font-weight: 700;
+         line-height: 36px;
+       
+         width: 327px;
+         margin-bottom: 16px;
+         
+     }
+ 
+ 
+     .hero_left .hero_text{
+         margin: 0 auto;
+         color: white;
+         font-size: 16px;
+        
+         font-weight: 500;
+         line-height: 26px;
+     
+         width: 327px;
+      
+     }
+     
+     .hero_right .hero_button{
+     background: #5E54A4; 
+     box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+     border-radius: 10px;
+      padding: 18px 66px 18px 66px;
+      width: 327px;
+      margin: 0 auto;
+      margin-bottom: 24px;
+ }
+ .hero_right .hero_button a{
+   
+   
+     color: white;
+     font-size: 15px;
+     font-weight: 700;
+     line-height: 26px;
+     letter-spacing: 0.27px;
+     
+ }
+ .hero_right .hero_form{
+     margin: 0 auto;
+     width: 327px;
+     background-color: white;
+     padding: 24px;
+     box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+     border-radius: 10px
+ }
+ .hero_right input{
+     width: 279px;
+     padding: 15px 0px 15px 19px;
+     margin-bottom: 20px;
+     color: #3D3B48;
+     font-size: 14px;
+    
+     font-weight: 600;
+     line-height: 26px;
+     letter-spacing: 0.25px;
+ }
+ .last_button {
+     display: flex;
+     
+     margin: 0 auto;
+     width: 279px;
+     background: #38CC8B;
+     box-shadow: 0px -4px 0px rgba(0, 0, 0, 0.09) inset;
+     border-radius: 5px; 
+     border: none;
+ 
+  
+ }
+ 
+ .last_text p {
+     width: 254px;
+     margin: 0 auto;
+     text-align: center;
+     color: #BAB7D4;
+     font-size: 11px;
+ 
+     font-weight: 500;
+     line-height: 26px;
+ }
+  .hero_right .span2 a{
+     color: #A6A1CF;
+ }
+   
+}
+@media (max-width:800px) and ( min-width:540px) {
+    
+    .container{
+        max-width: 800px;
+        margin: 0 auto;
+
+       
+     }
+     .hero{
+        display: flex;
+        flex-direction: column;
+        
+        
+     }
+     .hero_left   .hero_title{
+         margin: 0 auto;
+         color:white;
+         text-align: center;
+         font-size: 28px;
+         font-weight: 700;
+         line-height: 36px;
+       
+         width: 327px;
+         margin-bottom: 16px;
+         
+     }
+ 
+ 
+     .hero_left .hero_text{
+         margin: 0 auto;
+         text-align: center;
+         color: white;
+         font-size: 16px;
+        
+         font-weight: 500;
+         line-height: 26px;
+     
+         width: 327px;
+      
+     }
+     
+     .hero_right .hero_button{
+     background: #5E54A4; 
+     box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+     border-radius: 10px;
+      padding: 18px 66px 18px 66px;
+      width: 327px;
+      margin: 0 auto;
+      margin-bottom: 24px;
+ }
+ .hero_right .hero_button a{
+   
+   
+     color: white;
+     font-size: 15px;
+     font-weight: 700;
+     line-height: 26px;
+     letter-spacing: 0.27px;
+     
+ }
+ .hero_right .hero_form{
+     margin: 0 auto;
+     width: 327px;
+     background-color: white;
+     padding: 24px;
+     box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+     border-radius: 10px
+ }
+ .hero_right input{
+     width: 279px;
+     padding: 15px 0px 15px 19px;
+     margin-bottom: 20px;
+     color: #3D3B48;
+     font-size: 14px;
+    
+     font-weight: 600;
+     line-height: 26px;
+     letter-spacing: 0.25px;
+ }
+ .last_button {
+     display: flex;
+     
+     margin: 0 auto;
+     width: 279px;
+     background: #38CC8B;
+     box-shadow: 0px -4px 0px rgba(0, 0, 0, 0.09) inset;
+     border-radius: 5px; 
+     border: none;
+ 
+  
+ }
+ 
+ .last_text p {
+     width: 254px;
+     margin: 0 auto;
+     text-align: center;
+     color: #BAB7D4;
+     font-size: 11px;
+ 
+     font-weight: 500;
+     line-height: 26px;
+ }
+  .hero_right .span2 a{
+     color: #A6A1CF;
+ }
+   
+}
+@media (max-width:540px) and ( min-width:375px) {
+    
+    .container{
+        max-width: 540px;
+        margin: 0 auto;
+
+       
+     }
+     .hero{
+        display: flex;
+        flex-direction: column;
+        
+        
+     }
+     .hero_left   .hero_title{
+         margin: 0 auto;
+         color:white;
+         text-align: center;
+         font-size: 28px;
+         font-weight: 700;
+         line-height: 36px;
+       
+         width: 327px;
+         margin-bottom: 16px;
+         
+     }
+  .hero .hero_right{
+    padding: 0;
+ }
+ 
+     .hero_left .hero_text{
+         margin: 0 auto;
+         text-align: center;
+         color: white;
+         font-size: 16px;
+        
+         font-weight: 500;
+         line-height: 26px;
+     
+         width: 327px;
+      
+     }
+     
+     .hero_right .hero_button{
+     background: #5E54A4; 
+     box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+     border-radius: 10px;
+      padding: 18px 66px 18px 66px;
+      width: 327px;
+      margin: 0 auto;
+      margin-bottom: 24px;
+ }
+ .hero_right .hero_button a{
+   
+   
+     color: white;
+     font-size: 15px;
+     font-weight: 700;
+     line-height: 26px;
+     letter-spacing: 0.27px;
+     
+ }
+ .hero_right .hero_form{
+     margin: 0 auto;
+     width: 327px;
+     background-color: white;
+     padding: 24px;
+     box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+     border-radius: 10px
+ }
+ .hero_right input{
+     width: 279px;
+     padding: 15px 0px 15px 19px;
+     margin-bottom: 20px;
+     color: #3D3B48;
+     font-size: 14px;
+    
+     font-weight: 600;
+     line-height: 26px;
+     letter-spacing: 0.25px;
+ }
+ .last_button {
+     display: flex;
+     
+     margin: 0 auto;
+     width: 279px;
+     background: #38CC8B;
+     box-shadow: 0px -4px 0px rgba(0, 0, 0, 0.09) inset;
+     border-radius: 5px; 
+     border: none;
+ 
+  
+ }
+ 
+ .last_text p {
+     width: 254px;
+     margin: 0 auto;
+     text-align: center;
+     color: #BAB7D4;
+     font-size: 11px;
+ 
+     font-weight: 500;
+     line-height: 26px;
+ }
+  .hero_right .span2 a{
+     color: #A6A1CF;
+ }
+   
+}
+.hero_title {
+    color: white;
+    font-size: 50px;
+    
+    font-weight: 700;
+    line-height: 55px;
+    width: 525px;
+    margin-bottom: 8px;
+}
+.hero_text {
+    color: white;
+    font-size: 16px;
+
+    font-weight: 500;
+    line-height: 26px;
+    width: 525px;
+ 
+}
+.hero_right {
+   
+}
+.hero_button{
+    background: #5E54A4; 
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+     border-radius: 10px;
+     margin-bottom: 24px;
+     text-align: center;
+     padding: 17px 0 17px 0;
+    
+}
+.hero_button a {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.27px;
+   
+}
+.hero_button .span1{
+    color: white;
+font-size: 15px;
+
+font-weight: 500;
+line-height: 26px;
+
+}
+.hero_form {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 8px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 10px
+}
+
+input{
+    width: 460px;
+    padding: 15px 0px 15px 32px;
+    margin-bottom: 20px;
+    color: #3D3B48;
+    font-size: 14px;
+   
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0.25px;
+}
+.last_button button{
+    background: #38CC8B;
+    box-shadow: 0px -4px 0px rgba(0, 0, 0, 0.09) inset;
+    border-radius: 5px;
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+   
+    width: 460px;
+    border: none;
+ 
+}
+.last_button  button  {
+   
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 1px;
+    
+    
+  
+}
+.last_text {
+    text-align: center;
+    color: #BAB7D4;
+    font-size: 11px;
+
+    font-weight: 500;
+    line-height: 26px;
+}
+.span2 a{
+    color: #A6A1CF;
+}
+.span2 a:hover{
+    color: #FF7979;
+    transition: 0.5s;   
+  
+    
+}
